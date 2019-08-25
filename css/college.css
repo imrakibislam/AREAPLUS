@@ -1,0 +1,76 @@
+body {
+    background:  #1f3f49;
+}
+
+h1 {
+    color: #fff;
+    font-size: 2em;
+    /*padding-top: 100px;*/
+    width: 100%;
+}
+
+p {
+    color: AliceBlue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+}
+
+/* College Pics */
+.college img {
+    width: 1400px;
+    height: 500px;
+}
+
+
+h2 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+}
+
+.content {
+    padding: 40px;
+}
+
+/* MAP */
+.map {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.map h3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    text-align: left;
+    width: 70%;
+}
+
+/* Notice Board */
+.notice {
+    width: 70%;
+}
+
+.notice .notice-board li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+.notice .notice-board li h3 {
+    color: red;
+}
+
+.notice .notice-board li p {
+    color: grey;
+}

@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* GLOBAL */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/************ HEADER *************/
+header {
+    background: #1f3f49;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #b3c100; /*Green Coolor*/
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+header ul li {
+    float: left;
+    display: inline-block;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+    text-transform: lowercase;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header #branding h1 .home {
+    font-size: 25px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #d32d41;
+    font-weight: bold;
+}
+
+
+
+/* Dropdown */
+li .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/************** SHOWCASE **************/
+
+#showcase {
+    min-height: 400px;
+    background: url("../image/showcase-background.jpg") no-repeat 0 0;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/* NOTICE */
+#notice {
+    padding: 15px;
+    color: #fff;
+    background: #1f3f49;
+}
+
+/* MIDDLE SECTION */
+#middle {
+    margin-top: 10px;
+    width: 50%;
+}
+
+#middle .main h2 {
+    font-size: 65px;
+    color: #3c6478;
+    font-family: serif;
+    padding: 0;
+    margin: 0;
+}
+
+#middle .main p {
+    padding-top: 0;
+    color: #aaa;
+    line-height: 1.7;
+}
+
+/******************
+    SERVICES
+*******************/
+/* Service Background */
+#service-bg {
+    background: url("../image/service-background.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+#service-bg h1 {
+    margin-top: 125px;
+    font-size: 30px;
+}
+
+/* Services Section */
+#main {
+    margin-top: 15px;
+    width: 70%;
+}
+
+ul.services li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background: #b3c100;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
