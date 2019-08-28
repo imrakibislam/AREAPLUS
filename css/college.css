@@ -75,7 +75,7 @@ h2 {
     color: grey;
 }
 
-/* Responsive */
+/* Responsive Layout */
 @media(max-width: 768px) {
     .college img{
         height: 350px;

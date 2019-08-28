@@ -194,7 +194,7 @@ footer p {
     text-align: center;
 }
 
-/* Responsive */
+/* Responsive Layout*/
 @media(max-width: 768px) {
     header #branding{
         text-align: center;
