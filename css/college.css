@@ -74,3 +74,20 @@ h2 {
 .notice .notice-board li p {
     color: grey;
 }
+
+/* Responsive */
+@media(max-width: 768px) {
+    .college img{
+        height: 350px;
+        width: 800px;
+    }
+
+    .map iframe {
+        height: 400px;
+        width: 500px;
+    }
+
+    .notice {
+        width: 100%;
+    }
+}
