@@ -18,8 +18,8 @@ p {
 
 /* College Pics */
 .college img {
-    width: 1400px;
     height: 500px;
+    width: 100%;
 }
 
 
